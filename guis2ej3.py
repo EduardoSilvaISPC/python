@@ -16,12 +16,10 @@ for i in range(15):
         mayores += 1
     else:
         menores += 1
-    if sexo == "M":
+    if sexo.lower() == "m":
         varones += 1
     else:
-        mujeres += 1
-    
-    
+        mujeres += 1    
     
         
 print("Cantidad de mayores de edad:", mayores)
