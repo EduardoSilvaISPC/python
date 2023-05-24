@@ -2,12 +2,13 @@
 #en mesa femenina o masculina.
 
 # Solicitar al usuario que ingrese su género
+
 genero = input("Ingrese su género (f/m): ")
 
 # Determinar la mesa de votación según el género
-if genero == "f":
+if genero.lower() == "f":
     print("Usted vota en la mesa femenina")
-elif genero == "m":
+elif genero.lower() == "m":
     print("Usted vota en la mesa masculina")
 else:
     print("El género ingresado no es válido")
