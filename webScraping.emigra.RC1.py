@@ -5,7 +5,7 @@ import csv
 import mysql.connector
 
 # Definir la ruta completa donde deseas guardar el archivo CSV
-ruta_completa = r'C:\Users\Hertig\Desktop\scrap'
+ruta_completa = r'ACA RUTA COMPLETA PARA GUARDAR EL ARCHIVO'
 
 # URL de la página
 url = 'https://datosmacro.expansion.com/demografia/migracion/emigracion/argentina'
